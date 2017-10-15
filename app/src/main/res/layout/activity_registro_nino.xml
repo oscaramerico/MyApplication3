@@ -6,4 +6,105 @@
     android:layout_height="match_parent"
     tools:context="com.example.lenovo.perusinanemiav1.RegistroNino">
 
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srtRegNiño"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <EditText
+            android:id="@+id/edtdniapoderado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtdniapoderado"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtdniniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtdniniño"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtapellniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtApellidos"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtnomniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtNombres"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spnsexoniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/srtsexo" />
+
+        <EditText
+            android:id="@+id/edtedadniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtedad"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtfechNniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtfechNniño"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtlugarNacniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtLugarNac"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtdomicilioniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtDomicilio"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtgrupoSniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtGsanguineo"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnregniño"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srtRegistrar"
+            tools:text="@string/srtRegistrar" />
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

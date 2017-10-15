@@ -1,3 +1,51 @@
 <resources>
     <string name="app_name">Perusinanemiav1</string>
+
+    <string name="srtRegApo">Registro de Apoderado</string>
+    <string name="srtNombres">Nombres</string>
+    <string name="srtApellidos">Apellidos</string>
+    <string-array name="strtipoapoderado">
+
+        <item>Madre</item>
+        <item>Padre</item>
+
+    </string-array>
+    <string name="srtedad">Ingrese su edad</string>
+    <string name="srtdni">Ingrese su dni</string>
+    <string-array name="strGra_Instr">
+
+        <item> sin estudios</item>
+        <item> primaria</item>
+        <item> secundaria</item>
+        <item> tecnico</item>
+        <item> bachiller</item>
+        <item> universitario</item>
+
+    </string-array>
+    <string name="strEcivil">Estado Civil</string>
+    <string name="srtOccupacion">ingrese su ocupacion</string>
+    <string name="strtelefono">ingrese su telefono o celular </string>
+    <string name="strcod_usuario">ingrese codigo </string>
+    <string name="srtRegistrar">Registrar</string>
+
+
+    <string name="srtRegNiño">Registro de Niños</string>
+
+    <string name="srtdniapoderado">Dni del Apodeado</string>
+
+
+    <string-array name="srtsexo">
+
+        <item>Maculino</item>
+        <item>Femenino</item>
+
+    </string-array>
+    <string name="srtdniniño">Dni del niño</string>
+    <string name="strfechanac">seleccione la fecha</string>
+
+    <string name="srtLugarNac">Lugar de Nacimiento</string>
+    <string name="srtDomicilio">Domicilio</string>
+    <string name="srtGsanguineo">Grupo Sanguineo</string>
+    <string name="srtfechNniño">Fecha de Nacimiento ejemplo 01/02/1990 </string>
+
 </resources>

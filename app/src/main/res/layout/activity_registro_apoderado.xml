@@ -6,4 +6,113 @@
     android:layout_height="match_parent"
     tools:context="com.example.lenovo.perusinanemiav1.RegistroApoderado">
 
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srtRegApo"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="329dp">
+
+            <EditText
+                android:id="@+id/edtnombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/srtNombres"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/edtapellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/srtApellidos"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/spntipoapoderado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/strtipoapoderado" />
+
+        <EditText
+            android:id="@+id/edtedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtedad"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtdni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtdni"
+            android:inputType="textPersonName" />
+
+        <Spinner
+            android:id="@+id/spnestudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/strGra_Instr" />
+
+        <EditText
+            android:id="@+id/edtecivil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/strEcivil"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtocupacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/srtOccupacion"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edttelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/strtelefono"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtcodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/strcod_usuario"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnRegistrarApod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/srtRegistrar"
+            tools:layout_editor_absoluteX="131dp"
+            tools:layout_editor_absoluteY="410dp" />
+    </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
