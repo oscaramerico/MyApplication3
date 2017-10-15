@@ -3,9 +3,9 @@
 
     <string name="app_name">Perusinanemiav1</string>
     <string name="hello_word">Hello word</string>
-    <string name="title_tab0">Tab 0</string>
-    <string name="title_tab1">Tab 1</string>
-    <string name="title_tab2">Tab 2</string>
+    <string name="title_tab0">Dia 1</string>
+    <string name="title_tab1">Dia 2</string>
+    <string name="title_tab2">Dia 3</string>
 
     <string name="srtRegApo">Registro de Apoderado</string>
     <string name="srtNombres">Nombres</string>

@@ -2,7 +2,7 @@ package com.example.lenovo.perusinanemiav1;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.*;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
@@ -29,9 +29,9 @@ public class TabExampleMainActivity extends AppCompatActivity implements ItemFra
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
 
         // fake list model... for test
-        DummyModel[] listModel0 = createDummyListModel("tab 0");
-        DummyModel[] listModel1 = createDummyListModel("tab 1");
-        DummyModel[] listModel2 = createDummyListModel("tab 2");
+        DummyModel[] listModel0 = createDummyListModel("Dia 1");
+        DummyModel[] listModel1 = createDummyListModel("Dia 2");
+        DummyModel[] listModel2 = createDummyListModel("Dia 3");
 
 
         //  ViewPager need a PagerAdapter
@@ -88,7 +88,7 @@ public class TabExampleMainActivity extends AppCompatActivity implements ItemFra
     private DummyModel[] createDummyListModel(String msj) {
         List<DummyModel> l = new ArrayList<>();
         for(int i = 0; i < 10; i++  ) {
-            l.add(new DummyModel(String.valueOf(i), "Title " + i , "Description " + i + " -" + msj));
+            l.add(new DummyModel(String.valueOf(i), "Title "  , "Description " ));
         }
         return l.toArray(new DummyModel[l.size()]);
     }

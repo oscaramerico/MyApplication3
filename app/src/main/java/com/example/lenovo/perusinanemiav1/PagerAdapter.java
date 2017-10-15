@@ -28,14 +28,14 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                ItemFragment tab1 = ItemFragment.newInstance(dummyModels0);
-                return tab1;
+                ItemFragment Dia1 = ItemFragment.newInstance(dummyModels0);
+                return Dia1;
             case 1:
-                ItemFragment tab2 = ItemFragment.newInstance(dummyModels1);
-                return tab2;
+                ItemFragment Dia2 = ItemFragment.newInstance(dummyModels1);
+                return Dia2;
             case 2:
-                ItemFragment tab3 = ItemFragment.newInstance(dummyModels2);
-                return tab3;
+                ItemFragment Dia3 = ItemFragment.newInstance(dummyModels2);
+                return Dia3;
             default:
                 throw new RuntimeException("Tab position invalid " + position);
         }
