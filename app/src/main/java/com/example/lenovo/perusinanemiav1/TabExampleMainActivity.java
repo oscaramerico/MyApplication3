@@ -88,7 +88,15 @@ public class TabExampleMainActivity extends AppCompatActivity implements ItemFra
     private DummyModel[] createDummyListModel(String msj) {
         List<DummyModel> l = new ArrayList<>();
         for(int i = 0; i < 10; i++  ) {
-            l.add(new DummyModel(String.valueOf(i), "Title "  , "Description " ));
+            l.add(new DummyModel(String.valueOf(i), "Desayuno" +i , "Cantidad de Nutrientes : " +i));
+            l.add(new DummyModel(String.valueOf(i), "Almuerzo " +i , "Cantidad de Nutrientes : " +i));
+            l.add(new DummyModel(String.valueOf(i), "Cena " +i , "Cantidad de Nutrientes : " +i));
+            l.add(new DummyModel(String.valueOf(i), "Desayuno" +i , "Cantidad de Nutrientes : " +i));
+            l.add(new DummyModel(String.valueOf(i), "Almuerzo " +i , "Cantidad de Nutrientes : " +i));
+            l.add(new DummyModel(String.valueOf(i), "Cena " +i , "Cantidad de Nutrientes : " +i));
+
+
+
         }
         return l.toArray(new DummyModel[l.size()]);
     }
