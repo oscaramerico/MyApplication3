@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RegistroApoderado" />
-        <activity android:name=".RegistroNino"></activity>
+        <activity android:name=".RegistroNino" />
+        <activity android:name=".Dietas"></activity>
     </application>
 
 </manifest>
