@@ -9,15 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TabExampleMainActivity">
+        <activity android:name=".RegistroApoderado">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistroApoderado" />
         <activity android:name=".RegistroNino" />
+        <activity android:name=".Principalv1" />
+        <activity android:name=".TabExampleMainActivity" />
+        <activity android:name=".IndexActivity" />
+        <activity android:name=".ControlActivity" />
+        <activity android:name=".AyudaActivity" />
         <activity android:name=".Dietas"></activity>
     </application>
 
